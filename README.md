@@ -37,6 +37,6 @@ Tujuan utama pembuatan website ini adalah untuk memenuhi kriteria tugas pembuata
 ---
 
 ## 🖼️ Screenshot Tampilan
-![Tampilan Website Gundam](./screenshot.png)
+![Tampilan Website Gundam](https://github.com/jck-cysec/Quest-2-Pemrograman-Web-1/blob/9e88d94b78532824948936ce5a69e0d8055fdc14/Screenshot%20Web/1.png)
 
 ---
