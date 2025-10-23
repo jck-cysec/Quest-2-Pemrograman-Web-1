@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: #0d0d0d;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ddd;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #45a29e;
+}
+
+.btn-login {
+  background: #45a29e;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-login:hover {
+  background: rgb(153, 250, 245);
+  color: #0b0c10;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+  background: linear-gradient(135deg, #0b0c10, #1f2833);
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.text-content h5 {
+  color: #66fcf1;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  color: #c5c6c7;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background: #45a29e;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #66fcf1;
+  color: #0b0c10;
+}
+
+/* Image Section */
+.image-content {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.image-content img {
+  width: 420px;
+  max-width: 100%;
+  height: auto;
+}
+
+.info-box {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #66fcf1;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #111;
+  padding: 35px 0;
+  color: #ccc;
+  font-size: 14px;
+  margin-top: 0; /* Tidak ada jarak antara hero dan footer */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .text-content h1 {
+    font-size: 36px;
+  }
+
+  .image-content img {
+    width: 300px;
+  }
+}
